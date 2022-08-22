@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    vertical-align: baseline;
     border: 0;
 }
 .fundo{
@@ -24,11 +23,13 @@
     text-align: center;
 }
 .calculadora>p{
-    height: 25px;
-    border: 1px black solid;
+    height: 30px;
+    border: 0.5px black solid;
     border-radius: 5px 5px;
     width: 98%;
-    background-color: #c9c6c6;
+    background-color: #fff;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 .botao{
     width:50px;

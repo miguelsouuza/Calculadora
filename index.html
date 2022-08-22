@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="Fotos/calculadora.png" type="image/x-icon">
     <link rel="stylesheet" href="/style/style.css">
+    <script src="index.js"></script>
     <title>Calculadora</title>
 </head>
 <body>
@@ -17,28 +18,28 @@
             <table>
                 <tr>
                     <td><button class="botao">C</button></td>
-                    <td><button class="botao"><</button></td>
-                    <td><button class="botao">/</button></td>
-                    <td><button class="botao">X</button></td>
+                    <td><button class="botao" ><</button></td>
+                    <td><button class="botao" >/</button></td>
+                    <td><button class="botao" >X</button></td>
                 </tr>
                 <tr>
-                    <td><button class="botao">7</button></td>
-                    <td><button class="botao">8</button></td>
-                    <td><button class="botao">9</button></td>
-                    <td><button class="botao">-</button></td>
+                    <td><button class="botao" onclick="insert('7')">7</button></td>
+                    <td><button class="botao" onclick="insert('8')">8</button></td>
+                    <td><button class="botao" onclick="insert('9')">9</button></td>
+                    <td><button class="botao" >-</button></td>
                 </tr>
                 <tr>
-                    <td><button class="botao">4</button></td>
-                    <td><button class="botao">5</button></td>
-                    <td><button class="botao">6</button></td>
-                    <td><button class="botao">+</button></td>
+                    <td><button class="botao" onclick="insert('4')">4</button></td>
+                    <td><button class="botao" onclick="insert('5')">5</button></td>
+                    <td><button class="botao" onclick="insert('6')">6</button></td>
+                    <td><button class="botao" >+</button></td>
                 </tr>
                 <tr>
-                    <td><button class="botao">1</button></td>
-                    <td><button class="botao">2</button></td>
-                    <td><button class="botao">3</button></td>
+                    <td><button class="botao" onclick="insert('1')">1</button></td>
+                    <td><button class="botao" onclick="insert('2')">2</button></td>
+                    <td><button class="botao" onclick="insert('3')">3</button></td>
                     <!--rowspawn expande para duas linhas -->
-                    <td rowspan="2"><button class="botao" style="height: 101px;">=</button></td>
+                    <td rowspan="2"><button class="botao" style="height: 101px;" onclick="insert('0')">=</button></td>
                 </tr>
                 <tr>
                     <!--colspan expande para duas colunas-->

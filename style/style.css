@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    vertical-align: baseline;
+    border: 0;
+}
+.fundo{
+    background: linear-gradient(48deg, #c9c6c6 33%, #096879 71%);
+    height: 100%;
+    color: #096879;
+}
+.calculadora{
+    position: absolute;
+    background: #096879;
+    color: #ffff;
+    top: 50%;
+    left: 50%;
+}

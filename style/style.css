@@ -5,9 +5,10 @@
     border: 0;
 }
 .fundo{
-    background: linear-gradient(48deg, #c9c6c6 33%, #096879 71%);
+    background-image: linear-gradient(48deg, #c9c6c6 33%, #096879 71%);
     height: 100vh;
-    color: #096879;
+    color: #c9c6c6;
+    text-align: center;
 }
 .calculadora{
     position: absolute;

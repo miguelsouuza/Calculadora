@@ -1,3 +1,4 @@
 function insert(num){
-    document.getElementById('resultado').innerHTML=num
+    let numero = document.querySelector(`#resultado`).innerHTML
+    document.querySelector(`#resultado`).innerHTML=numero+num
 }
